@@ -1,9 +1,8 @@
 Installing Webpaste:
 
-1. Clone hacks repo: https://github.com/garmir/script-dump
-2. Go to webpaste directory, run go build, and you will get "webpaste" binary file.
-3. Before starting webpaste, set environment variable: export WEBPASTE_TOKEN=iloveweb
-4. By default webpaste runs on port 8080,
+1. Go to webpaste directory, run go build, and you will get "webpaste" binary file.
+2. Before starting webpaste, set environment variable: export WEBPASTE_TOKEN=iloveweb
+3. By default webpaste runs on port 8080,
 
 ```
 $ ./webpaste -h
