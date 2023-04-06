@@ -1,4 +1,4 @@
-Installing Webpaste:
+## Installing Webpaste:
 
 1. Go to webpaste directory, run go build, and you will get "webpaste" binary file.
 2. Before starting webpaste, set environment variable: export WEBPASTE_TOKEN=iloveweb
@@ -14,7 +14,7 @@ Usage of ./webpaste:
   -u    only print unique lines
 ```
 
-Installing Extension:
+## Installing Extension:
 
 1. Open the Extension Manager by following:
 
@@ -30,7 +30,7 @@ Kebab menu(three vertical dots) -> More Tools -> Extensions
 
 6. Right click on chrome extension, go to "Options"
 
-Put Server name:
+## Server name:
 
 http://localhost:8080 or http://ip:port
 
@@ -55,7 +55,7 @@ cat hacks/webpaste/extension/snippets.js
 ```
 Copy only the values inside " " in expension option, Save.
 
-7. open google, search something: example: site:yahoo.com url:?
+7. Open Google, search something: e.g.: site:yahoo.com url:?
 
 Run webpaste binary on terminal, Click on webpaste extension, click on "Google URLs", and you will see URL from the google search engine in your terminal.
 
